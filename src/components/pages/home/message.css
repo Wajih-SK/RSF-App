@@ -1,0 +1,66 @@
+/* General Section Styling */
+.message-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9fbfc;
+  }
+  
+  /* Header Styling */
+  .message-header h2 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .message-header .divider {
+    width: 50px;
+    height: 3px;
+    background-color: var(--blue-color);
+    margin: 10px auto 20px;
+    border: none;
+  }
+  
+  /* Content Styling */
+  .message-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #666;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  
+  .message-content p {
+    margin-bottom: 20px;
+  }
+  
+  .fade-text {
+    position: relative;
+    overflow: hidden;
+    max-height: 5.5em; /* Show approximately 3 lines */
+    text-overflow: ellipsis;
+    white-space: normal;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 5%, #f9fbfc 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  /* Read More Button */
+  .read-more-btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--red-color);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid var(--red-color);
+    transition: all 0.3s ease;
+  }
+  
+  .read-more-btn:hover {
+    background-color: var(--red-color);
+    color: white;
+  }
+  

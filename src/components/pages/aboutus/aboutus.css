@@ -1,0 +1,131 @@
+
+  
+  .about-us-page {
+    padding: 20px;
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #002a55;
+    color: white;
+    width: 100%;
+  }
+  
+  .hero-section h1 {
+    font-size: 36px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Divider */
+  .divider {
+    width: 50px;
+    height: 3px;
+    background-color: var(--red-color);
+    margin: 20px auto;
+    border: none;
+  }
+  
+  /* About Us Section */
+  .about-us-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  
+  .about-us-section img {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .about-us-section .content {
+    width: 50%;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    /* background-color: rgb(248, 232, 232); */
+  }
+  
+  .mission-section blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px auto 30px;
+    max-width: 800px;
+  }
+  
+  .objectives {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .objective {
+    width: 30%;
+    text-align: left;
+  }
+  
+  /* Values Section */
+  .values-section {
+    margin-bottom: 50px;
+  }
+  
+  .values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .value {
+    width: 45%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Team Message Section */
+  .team-message-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .team-message-section .content {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: var(--blue-color);
+  }
+  @media only screen and (max-width: 500px) {
+    .about-us-page {
+        width: 100%;
+    }
+    .about-us-section {
+        flex-direction: column;
+        width: 95%;
+      }
+      
+      .about-us-page {
+        width: 100%;
+        margin: 0;
+        margin-top: 80px;
+    }
+  }

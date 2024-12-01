@@ -1,0 +1,74 @@
+
+  /* Safety Page Section */
+  .safety-page {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .safety-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .safety-header h1 {
+    font-size: 46px;
+    color: #002a55;
+    margin-bottom: 10px;
+  }
+  
+  .safety-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Safety Points */
+  .safety-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .safety-point {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 370px;
+    text-align: left;
+  }
+  
+  .safety-point img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .safety-point h2 {
+    font-size: 20px;
+    color: #002a55;
+    margin: 20px;
+  }
+  
+  .safety-point p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 20px 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .safety-points {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .safety-point {
+      max-width: 100%;
+    }
+  }
+  
